@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transition: background-image 1s ease-in-out;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.65);
+    color: #ffffff;
+    padding: 30px;
+    width: 360px;
+    text-align: center;
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+#quoteBox {
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+#quoteText {
+    transition: opacity 0.5s ease-in-out;
+}
