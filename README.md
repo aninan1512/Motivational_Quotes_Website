@@ -89,7 +89,7 @@ A short screen recording demonstrating the website’s functionality and user in
 
 If deployed using GitHub Pages, the project can be accessed at:
 
-https://<aninan1512>.github.io/motivational-quotes-website/
+https://<aninan1512>.github.io/Motivational-Quotes-Website/
 
 ---
 
